@@ -5,8 +5,8 @@
   <div class="col-12">
     <div class="card">
       <div class="card-header">
-        <h4>Advanced Table</h4>
-        <div class="card-header-form">
+        <h4><a href="" class="btn btn-primary">Add Product</a></h4>
+        <div class="card-header-form float-right">
           <form>
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search">
@@ -73,6 +73,23 @@
             </tr>
           </table>
         </div>
+      </div>
+      <div class="card-footer text-right">
+        <nav class="d-inline-block">
+          <ul class="pagination mb-0">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" tabindex="-1"><i class="fas fa-chevron-left"></i></a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   </div>
